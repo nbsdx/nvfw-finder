@@ -22,6 +22,8 @@ Device Drivers --->
 7. Build your kernel.
 
 ## Example
+```bash
 $ ./get-kernel-config.sh
 CONFIG_EXTRA_FIRMWARE_DIR="/lib/firmware"
 CONFIG_EXTRA_FIRMWARE="nvidia/gp104/acr/bl.bin nvidia/gp104/acr/ucode_load.bin nvidia/gp104/acr/ucode_unload.bin nvidia/gp104/acr/unload_bl.bin nvidia/gp104/gr/fecs_bl.bin nvidia/gp104/gr/fecs_data.bin nvidia/gp104/gr/fecs_inst.bin nvidia/gp104/gr/fecs_sig.bin nvidia/gp104/gr/gpccs_bl.bin nvidia/gp104/gr/gpccs_data.bin nvidia/gp104/gr/gpccs_inst.bin nvidia/gp104/gr/gpccs_sig.bin nvidia/gp104/gr/sw_bundle_init.bin nvidia/gp104/gr/sw_ctx.bin nvidia/gp104/gr/sw_method_init.bin nvidia/gp104/gr/sw_nonctx.bin nvidia/gp104/nvdec/scrubber.bin nvidia/gp104/sec2/desc.bin nvidia/gp104/sec2/image.bin nvidia/gp104/sec2/sig.bin"
+```
