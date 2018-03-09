@@ -40,5 +40,5 @@ for file in ${files[@]}; do
 done
 
 # Print updated kernel config options.
-echo "CONFIG_EXTRA_FIRMWARE_DIR=\"${FWDIR}\"
-echo "CONFIG_EXTRA_FIRMWARE=\"${FW_LIST[@]}\"
+echo "CONFIG_EXTRA_FIRMWARE_DIR=\"${FWDIR}\""
+echo "CONFIG_EXTRA_FIRMWARE=\"${FW_LIST[@]}\""
