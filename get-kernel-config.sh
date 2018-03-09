@@ -1,12 +1,12 @@
-#!/bin/bash
+!/bin/bash
 
-# You can change the following by exporting them in your shell:
+# You can change the following: (TODO: Make cmdline options)
 # FWDIR (/lib/firmware): The directory to search for firmware in.
 # NVCODENAME (gp104)   : See: https://nouveau.freedesktop.org/wiki/CodeNames
 # FWBLACKLIST (<none>) : List of firmware to skip. You must use the full path as nvidia/${NVCODENAME}/...
-FWDIR=${1:-/lib/firmware}
-NVCODENAME=${1:-gp104}
-FWBLACKLIST=${1:-""}
+FWDIR="/lib/firmware"
+NVCODENAME="gp104"
+FWBLACKLIST=""
 
 # Recursively list all files in ${FWDIR}/nvidia/${NVCODENAME}.
 # We filter out all lines that aren't paths by making sure
